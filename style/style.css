@@ -315,9 +315,13 @@ main.work section section {
 
 main.work section section img {
     width: auto;
-    height: 9em;
+    height: 7.8em;
 
-    margin-top: -1.5em;
+    margin-top: -1.3em;
+}
+
+main.work article:nth-of-type(2) section article:first-of-type {
+    margin-top: -3em;
 }
 
 main.work section section.deel1 aside {
@@ -346,10 +350,29 @@ main.work section section.deel2 {
 }
 
 main.work section section.deel2 img{
-    width: 20em;
+    width: 19em;
     height: auto;
 
-    padding-top: 2em;
+    padding-top: 1.5em;
+}
+
+main.work article:nth-of-type(2) section article:first-of-type section:last-of-type img {
+    width: 17em;
+    height: auto;
+}
+
+main.work article:nth-of-type(2) section article:nth-of-type(3) section:last-of-type img {
+    width: 19em;
+    height: auto;
+
+    margin-top: -1.7em;
+}
+
+main.work article:nth-of-type(2) section article:last-of-type section:last-of-type img {
+    width: 19em;
+    height: auto;
+
+    margin-top: -1.8em;
 }
 
 /****************************************************************/
@@ -505,6 +528,13 @@ main.work section article section.deel2{
     margin: 0;
 }
 
+main.work article:nth-of-type(2) section article:last-of-type {
+    margin-bottom: 7em;
+}
+
+main.work article:nth-of-type(2) section article:first-of-type {
+    margin-top: 9em;
+}
 
 
 }
