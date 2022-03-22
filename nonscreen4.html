@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi device design</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <aside>
+            <a href="index.html"><img src="images/logo.is.svg" alt="Logo van Isabella Smit"></a>
+            <p>Isabella Smit</p>
+        </aside>
+
+        <nav>
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <section id="menu">
+                <ul>
+                    <li><a href="index.html">Hello</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <main class="nonscreen">
+        <div>
+            <picture>
+                <source 
+                srcset="images/ubicomp.light.svg"
+                media="(prefers-color-scheme: light)">
+                <img src="images/ubicomp.dark.svg" alt="UBICOMP project">
+            </picture>
+            <p>Bij het ubicomp project leerde ik wat onderdeel is van het Ubicomp en IoT-vakgebied, welke factoren belangrijk zijn voor een goede UX- en interactie-ontwerp voor een schermloos device.</p>
+        </div>
+
+        <section>
+            <section>
+                <h1>Non-screen design.</h1>
+
+                <aside>
+                    <picture>
+                        <source 
+                        srcset="images/rectangle.dark.svg"
+                        media="(prefers-color-scheme: light)">
+                        <img src="images/rectangle.png" alt="Half dichte laptop met donkere achtergronds">
+                    </picture>
+                    <p>Ubicomp project</p>
+                </aside>
+                <p></p> 
+            </section>
+
+            <article>
+                <p>Bij het ubicomp project leerde ik wat onderdeel is van het Ubicomp en IoT-vakgebied, welke factoren belangrijk zijn voor een goede UX- en interactie-ontwerp voor een schermloos device.</p>
+                <aside>
+                    <h2>Eindoplevering</h2>
+                    <a href="media/ubicomp.pdf">
+                        <picture>
+                            <source 
+                            srcset="images/voorblad.ubi.light.png"
+                            media="(prefers-color-scheme: light)">
+                            <img src="images/voorblad.ubi.png" alt="UBICOMP project">
+                        </picture>
+                    </a>
+                    <p>Klik op de afbeelding om de PDF te openen</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
